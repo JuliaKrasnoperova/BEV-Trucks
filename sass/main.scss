@@ -1,0 +1,31 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+@import './base/fonts';
+
+// Blocks
+@import "./blocks/logo";
+@import './blocks/title-h1';
+@import './blocks/title-h2';
+@import './blocks/button';
+@import './blocks/gradient-line';
+@import './blocks/_preloader';
+
+
+// Sections
+@import "./sections/header";
+@import './sections/contacts';
+@import './sections/banner';
+@import './sections/about';
+@import './sections/advantages';
+@import './sections/transport';
+@import './sections/steps';
+@import './sections/contacting';
+@import './sections/_socials';
+@import './sections/slider';
+@import './sections/portfolio';
+@import "./sections/footer";
+
+// Media
+@import './media/media';

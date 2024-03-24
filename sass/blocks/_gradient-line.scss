@@ -1,0 +1,16 @@
+.gradient-line {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    background-size: 100% 5px;
+    background-image: linear-gradient(to right, #91C9FF, #91C9FF);
+
+    @media (max-width: 899px) {
+        background-position: center bottom 8px;
+        background-size: 100% 3px;
+    }
+
+    @media (max-width: 599px) {
+        background-position: center bottom 6px;
+    }
+}

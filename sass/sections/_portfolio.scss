@@ -1,0 +1,14 @@
+.portfolio {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+
+    @media (max-width: 899px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.portfolio__title {
+    margin-bottom: 50px;
+}

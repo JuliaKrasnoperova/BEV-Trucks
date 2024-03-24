@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+
+    @media(max-width: 500px) {
+        width: 118px;
+    }
+}

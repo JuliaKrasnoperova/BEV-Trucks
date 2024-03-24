@@ -1,0 +1,32 @@
+.about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+
+    @media (max-width: 899px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.about__title {
+    margin-bottom: 20px;
+}
+
+.about__text {
+    @media (max-width: 1199px) {
+        font-size: 18px;
+    }
+
+    @media (max-width: 899px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 12px;
+    }
+
+    &_bold {
+        font-family: "RobotoSlabBold";
+    }
+}
