@@ -583,7 +583,7 @@ body > * {
 
 .contacts__tel::before {
   content: '';
-  background-image: url("/img/contacts/phone.svg");
+  background-image: url("./../img/contacts/phone.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -599,7 +599,7 @@ body > * {
 
 .contacts__tel_white::before {
   content: '';
-  background-image: url("/img/contacts/phone-white.svg");
+  background-image: url("./../img/contacts/phone-white.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -615,7 +615,7 @@ body > * {
 
 .contacts__email::before {
   content: '';
-  background-image: url("/img/contacts/email.svg");
+  background-image: url("./../img/contacts/email.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -631,7 +631,7 @@ body > * {
 
 .contacts__email_white::before {
   content: '';
-  background-image: url("/img/contacts/email-white.svg");
+  background-image: url("./../img/contacts/email-white.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
