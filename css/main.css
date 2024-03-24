@@ -1431,6 +1431,11 @@ body > * {
     font-size: 14px;
   }
 }
+@media (max-width: 599px) {
+  .footer__info {
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   .footer__info {
     margin-bottom: 12px;
