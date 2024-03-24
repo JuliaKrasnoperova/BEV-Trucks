@@ -20,10 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// preloader
-const preloader = () => {
+window.onload = function () {
   const preloader = document.getElementById("preloader");
   preloader.style.display = "none";
 };
-
-preloader();
