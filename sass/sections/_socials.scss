@@ -1,8 +1,12 @@
 .socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    display: none;
+
+    @media (max-width:899px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
 
     @media(max-width: 500px) {
         gap: 15px;
