@@ -4,7 +4,7 @@
     background-color: #263049;
 
     text-align: center;
-    background-image: url('.././img/banner/cars.jpg');
+    background-image: url('../img/banner/cars.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50%;
@@ -19,7 +19,7 @@
     @media (max-width: 500px) {
         padding-top: 15px;
         padding-bottom: 15px;
-        background-image: url('.././img/banner/banner-mobile.jpg');
+        background-image: url('../img/banner/banner-mobile.jpg');
     }
 
     @media (max-width: 400px) {}
