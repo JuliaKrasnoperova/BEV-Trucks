@@ -893,6 +893,7 @@ body > * {
 }
 @media (max-width: 599px) {
   .advantages__item-text {
+    max-width: 200px;
     font-size: 12px;
   }
 }
@@ -1007,7 +1008,7 @@ body > * {
 
 .transport__list-item::before {
   content: '';
-  background-image: url("/img/transport/dot.svg");
+  background-image: url("./../img/transport/dot.svg");
   display: block;
   width: 7px;
   height: 7px;

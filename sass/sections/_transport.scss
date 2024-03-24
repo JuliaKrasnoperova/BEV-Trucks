@@ -75,7 +75,7 @@
 
 .transport__list-item::before {
     content: '';
-    background-image: url('/img/transport/dot.svg');
+    background-image: url('./../img/transport/dot.svg');
     display: block;
     width: 7px;
     height: 7px;
