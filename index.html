@@ -98,7 +98,7 @@
 				</p>
 				<div class="button banner__link">
 					<div id="circle"></div>
-					<a href="tel:+79043029995">Оставить заявку</a>
+					<a href="#contacting">Связаться с нами</a>
 				</div>
 			</div>
 		</div>
@@ -212,15 +212,31 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacting">
+	<section id="contacting" class="contacting">
 		<div class="container">
 			<h2 class="title-h2 contacting__title">Не знаете какой транспорт подойдет для ваших целей? </h2>
 			<p class="contacting__text">Специалисты нашей компании ответят на все интересующие вопросы, дадут полезные
 				советы и рекомендации</p>
-			<div class="button contacting__link">
-				<div id="circle"></div>
-				<a href="tel:+79043029995">Связаться</a>
-			</div>
+			<form action="./mail.php" method="POST" id="form" class="form">
+				<fieldset class="form-group">
+					<div class="form-group-row">
+						<div class="form-group-row__input">
+							<input class=" name form__input form__text" type="text" name="FIO" placeholder="Ваше имя">
+						</div>
+						<div class="form-group-row__input">
+							<input class=" form__input form__number" type="tel" name="PHONE" placeholder="Ваш телефон">
+						</div>
+					</div>
+					<div>
+						<textarea class="form__textarea form__text" name="TEXT" placeholder="Ваше сообщение"></textarea>
+					</div>
+					<div class="button form__btn">
+						<button name="submit" type="submit">Оставить заявку</button>
+					</div>
+
+
+				</fieldset>
+			</form>
 		</div>
 	</section>
 

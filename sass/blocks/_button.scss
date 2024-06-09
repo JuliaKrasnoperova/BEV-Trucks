@@ -2,7 +2,6 @@
     display: inline-block;
     margin: 0 auto;
     background-color: #5CA4EA;
-    color: $second-color;
     padding: 10px 40px;
     border: 1px solid #91C9FF;
 
@@ -31,6 +30,12 @@
 }
 
 .button a {
+    position: relative;
+    color: #fff;
+    transition: all 0.45s ease-Out;
+}
+
+.button.btn {
     position: relative;
     color: #fff;
     transition: all 0.45s ease-Out;

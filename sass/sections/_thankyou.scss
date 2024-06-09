@@ -1,0 +1,18 @@
+.thankyou__container {
+    text-align: center;
+}
+
+.thankyou__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.thankyou__text {
+    font-size: 16px;
+    margin-bottom: 20px;
+
+    @media (max-width: 599px) {
+        font-size: 12px;
+    }
+}
