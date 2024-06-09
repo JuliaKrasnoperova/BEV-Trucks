@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     allInputs.forEach((input) => {
       removeErrorInput(input);
 
-      const reg = /^[А-ЯЁ]+$/i;
+      const reg = /[а-яА-ЯёЁ\s\.\,\!\?\-]/gm;
 
       if (!reg.test(input.value)) {
         createErrorInput(input, "Заполните, пожалуйста, поле");
